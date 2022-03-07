@@ -28,3 +28,17 @@ const add: Tambah = (val1: number, val2: number): number => {
   return val1 + val2;
 };
 console.info(add(99, 1));
+
+//default parameter
+const fullName = (first: string, last: string = "<kosong>"): string => {
+  return `${first} ${last}`;
+};
+
+console.info(fullName("Hendra"));
+
+//optional parameter
+const getName2 = (val1: string, val2?: string): string => {
+  //val2 optional, apabila kosong maka undifined
+  return `${val1} ${val2}`;
+};
+console.info(getName2("rudi"));

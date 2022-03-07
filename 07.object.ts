@@ -1,15 +1,21 @@
 //object
 
-let user = {
+let profile = {
   name: "Yudi",
   age: 17,
 };
 
-// user = {
+// profile = {
 //   address: "jl raya",
 // };
 
 type User = {
   name: string;
   age: number;
+};
+
+let user: User = {
+  name: "yudi",
+  age: 19,
+  //   address:"jl raya"
 };
