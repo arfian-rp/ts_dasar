@@ -1,0 +1,9 @@
+{
+  "name": "ts_dasar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "tsc": "rm -rf build/ && tsc -w"
+  }
+}
